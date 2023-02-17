@@ -4,6 +4,7 @@ extern crate test;
 cipher::stream_cipher_bench!(
     chacha20::ChaCha8;
     chacha8_bench1_16b 16;
+    chacha8_bench1_64b 64;
     chacha8_bench2_256b 256;
     chacha8_bench3_1kib 1024;
     chacha8_bench4_16kib 16384;
